@@ -16,7 +16,7 @@ int main(){
     cin>>a;
     cout<<"please enter their percentages on the final grade respectively"<<endl;
     for(int i=1;i<=a;i++) {
-            cout<<"percentage "<<i<<":"<<endl;
+            cout<<"percentage "<<i<<": ";
             cin>>percent;
             b.push_back(percent);
     }
@@ -36,7 +36,7 @@ int main(){
 
     cout<<"Please enter the scores respectively"<<endl;
     for(int i=1;i<=a;i++) {
-            cout<<"score "<<i<<":"<<endl;
+            cout<<"score "<<i<<": ";
             cin>>score;
             c.push_back(score);
     }
